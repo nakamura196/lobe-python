@@ -8,7 +8,7 @@ setup(
         "numpy",
         "pillow",
         "requests",
-        "tensorflow==1.14.0",
+        "tensorflow",
         "tflite_runtime ; platform_machine=='armv7l'"
     ],
     dependency_links=[
